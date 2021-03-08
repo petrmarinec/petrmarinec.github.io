@@ -1,0 +1,94 @@
+/* Home padding */
+.navbar{
+  padding-left: 100px;
+  
+}
+.navbar-custom { 
+    background-color: #1f2833; 
+} 
+.navbar-nav{
+  padding-right: 100px;
+}
+
+.navbar-nav li{
+  margin: 30px;
+
+}
+
+
+.navbar-brand{
+  color: #ffffff;
+  font-weight: bolder;
+  
+}
+
+.navbar-nav li{
+  color: #ffffff;
+  
+}
+
+
+/*aby se zmenil padding kdyz pouzivame telefon*/
+@media (max-width: 480px) { 
+  .navbar{
+    padding-left: 30px;
+  }
+  } 
+
+  .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.prvni{
+  padding: 100px;
+  background-color: #0b0c10;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+  h2{
+  color: #66fcf1;
+  font-weight: bold;
+}
+p{
+  padding-top: 30px;
+  color: #c5c6c7;
+  font-size: large;
+}
+
+.card {
+  
+  background-color: #1F2833;
+  
+}
+.card-title{
+  color: #66FCF1;
+}
+
+p.card-text{
+  color: #C5C6C7;
+}
+
+.card-group{
+  padding: 100px;
+  background-color: #45A29E;
+}
+
+.druhy {
+  padding: 100px;
+}
+footer p {
+  color: white;
+}
+
+.row{
+  display: block;
+  text-align: center;
+  padding: 30px;
+ }
+ 
+ .row img{
+  display: inline-block;
+ }
