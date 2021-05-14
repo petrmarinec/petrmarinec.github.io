@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>DomaciUkol 3</title>
+</head>
+
+
+<body class="text-center">
+
+
+    <div class="container text-center">
+        <h1>Domácí úkol 3</h1>
+
+        <form>
+            <div class="form-group">
+                <label>strana a</label>
+                <input type="number" min="0" oninput="validity.valid||(value='');" class="form-control" id="strana1" placeholder="zadejte stranu a" required>
+
+            </div>
+            <div class="form-group">
+                <label>strana b</label>
+                <input type="number" min="0" oninput="validity.valid||(value='');" class="form-control" id="strana2" placeholder="zadejte stranu b" required>
+
+            </div>
+            <div class="form-group">
+                <label>strana c</label>
+                <input type="number" min="0" oninput="validity.valid||(value='');" class="form-control" id="strana3" placeholder="zadejte stranu c" required>
+
+            </div>
+            <button onclick="main()" type="button" class="btn btn-primary">Submit</button>
+        </form>
+        <br>
+
+        <h2>Zadali jste:</h2>
+        <br>
+        <ul>
+            <li>
+                a=<b id="hodnota1"></b>
+            </li>
+            <li>
+                b=<b id="hodnota2"></b>
+            </li>
+            <li>
+                c=<b id="hodnota3"></b>
+            </li>
+
+        </ul>
+        <h2>Výpočet</h2>
+        <p>Poloměr kružnice opsané = <b id="vysledekOpsana"></b></p>
+        <p>Poloměr kružnice vepsané = <b id="vysledekVepsana"></b></p>
+
+    </div>
+
+</body>
+
+</html>
